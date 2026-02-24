@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Mario Bros </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mascara Formulário -->
+    <div class="mascara-formulario" onclick="fecharFormulario()"></div>
+
+    <!-- Header (menus de navegação) -->
+    <div class="header">
+
+        <img src="assets/logo-header.png " alt="Logo do Mario Bros" class="logo-header">
+
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+
+    </div>
+
+    <!--Caixa organizadora principal-->
+    <div class="container-principal">
+
+        <div class="container-apresentacao">
+
+            <!--Imagens do logotipo-->
+            <img src="assets/pngwing.com.png" alt="Imagem do logo Mario Bros" class="logo">
+
+            <!--Texto de apresentação do site-->
+            <p> Mario Bros é um jogo de plataforma criado pela Nintendo, onde os jogadores controlam o personagem Mario
+                em sua
+                jornada para resgatar a Princesa Peach do vilão Bowser. O jogo é conhecido por seus gráficos coloridos,
+                trilha
+                sonora cativante e jogabilidade divertida. Mario Bros é um dos jogos mais icônicos e amados de todos os
+                tempos,
+                e continua a ser popular entre jogadores de todas as idades. </p>
+
+            <!--Botão de contato-->
+            <button onclick="formButton()" class="contact-button"> Entre em contato! </button>
+
+        </div>
+
+        <!-- Caixa Organizadora personagens -->
+        <div class="container-personagens">
+
+            <!--Imagem dos personagens-->
+            <img src="assets/mario.png" alt="Imagem do personagem Mario e Luigi" class="img-personagens">
+
+        </div>
+
+    </div>
+
+    <!-- Caixa organizadora video-fundo -->
+    <div class="video-fundo">
+        <video src="/assets/video.mp4" autoplay muted loop></video>
+
+        <div class="mascara"></div>
+
+    </div>
+
+    <!-- Link para contato via WhatsApp -->
+    <a href="https://wa.me/5566999998888" target="_blank" class="whatsapp-link">
+        <img src="assets/whatsapp.png" alt="Imagem do logo do WhatsApp">
+    </a>
+
+    <!-- Formulário de contato -->
+    <form class="formulario-contato" action="https://formcarry.com/s/IELzLXiM6QE" method="POST"
+        enctype="multipart/form-data">
+
+        <input placeholder="Seu nome" type="text" name="Seu Nome">
+        <input placeholder="Seu telefone" type="tel" name="Seu Telefone">
+        <textarea placeholder="Sua mensagem" name="Digite aqui a sua mensagem..."></textarea>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+
+<!-- Script js-->
+<script src="script.js"></script>
+
+</html>
